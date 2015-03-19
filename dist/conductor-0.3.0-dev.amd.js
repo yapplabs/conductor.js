@@ -554,8 +554,8 @@ define("conductor/card",
       }
     };
 
-    Conductor.card = function(options) {
-      return new Card(options);
+    Conductor.card = function(options, oasis) {
+      return new Card(options, oasis);
     };
 
   });
